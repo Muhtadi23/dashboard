@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/789400d917.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <input type="checkbox" name="" id="sidebar-toggle">
+    <div class="sidebar">
+        <div class="sidebar-header">
+            <h3 class="brand">
+                <span></span>
+                <span>Dashboard</span>
+            </h3>
+            <label for="sidebar-toggle" class="fa-solid fa-bars"></label>
+        </div>
+        <div class="sidebar-menu">
+            <ul>
+                <li>
+                    <a href="">
+                        <span class="fa-solid fa-house"></span>
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="fa-solid fa-group-arrows-rotate"></span>
+                        <span>Team</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="fa-solid fa-utensils"></span>
+                        <span>Products</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="fa-solid fa-cash-register"></span>
+                        <span>Revinue</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="fa-solid fa-user-tie"></span>
+                        <span>Uesrs</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <header>
+            <div class="search-wrapper">
+                <span class="fa-solid fa-magnifying-glass"></span>
+                <input type="search" name="" id="" placeholder="Search">
+            </div>
+            <div class="social-icons">
+                <span class="fa-regular fa-bell"></span>
+                <span class="fa-regular fa-comment"></span>
+                <div></div>
+            </div>
+        </header>
+
+        <main>
+            <h2 class="dash-title">Overview</h2>
+            <div class="dashboard-cards">
+                <div class="card-single">
+                    <div class="card-body">
+                        <span class="fa-solid fa-briefcase"></span>
+                        <div>
+                            <h5>Account Balance</h5>
+                            <h4>$5000</h4>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <a href="">View All</a>
+                    </div>
+                </div>
+
+                <div class="card-single">
+                    <div class="card-body">
+                        <span class="fa-solid fa-rotate-right"></span>
+                        <div>
+                            <h5>Pending Balance</h5>
+                            <h4>$3000</h4>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <a href="">View All</a>
+                    </div>
+                </div>
+
+                <div class="card-single">
+                    <div class="card-body">
+                        <span class="fa-solid fa-square-check"></span>
+                        <div>
+                            <h5>Pending Balance</h5>
+                            <h4>$3000</h4>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <a href="">View All</a>
+                    </div>
+                </div>
+            </div>
+
+            <section class="recent">
+                <div class="activity-grid">
+                    <div class="activity-card">
+                        <h3>Activities</h3>
+                        <div class="table-responsive">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>Item Name</th>
+                                        <th>Price</th>
+                                        <th>Update</th>
+                                        <th>Delete</th>
+                                        <th>Status</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Apple</td>
+                                        <td>$1.50</td>
+                                        <td><button>Update</button></td>
+                                        <td><button>Delete</button></td>
+                                        <td>Available</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Banana</td>
+                                        <td>$0.80</td>
+                                        <td><button>Update</button></td>
+                                        <td><button>Delete</button></td>
+                                        <td>Available</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Orange</td>
+                                        <td>$1.20</td>
+                                        <td><button>Update</button></td>
+                                        <td><button>Delete</button></td>
+                                        <td>Out of Stock</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>Grapes</td>
+                                        <td>$2.50</td>
+                                        <td><button>Update</button></td>
+                                        <td><button>Delete</button></td>
+                                        <td>Available</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>Watermelon</td>
+                                        <td>$3.00</td>
+                                        <td><button>Update</button></td>
+                                        <td><button>Delete</button></td>
+                                        <td>Available</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="summary">
+                        <div class="summary-card">
+                            <div class="summary-single">
+                                <span class="fa-solid fa-face-smile"></span>
+                                <div>
+                                    <h5>153</h5>
+                                    <small>Total number of orders</small>
+                                </div>
+                            </div>
+                            <div class="summary-single">
+                                <span class="fa-solid fa-compass"></span>
+                                <div>
+                                    <h5>54</h5>
+                                    <small>Pending</small>
+                                </div>
+                            </div>
+                            <div class="summary-single">
+                                <span class="fa-solid fa-check"></span>
+                                <div>
+                                    <h5>634</h5>
+                                    <small>Total number of completed orders</small>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </section>
+
+        </main>
+
+    </div>
+</body>
+
+</html>
